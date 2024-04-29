@@ -123,7 +123,8 @@
             this.Controls.Add(this.textBoxSobrenome);
             this.Controls.Add(this.textBoxTelefone);
             this.Name = "Form1";
-            this.Text = "te";
+            this.Text = "Lista de Contatos";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
